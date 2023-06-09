@@ -1,0 +1,29 @@
+Cloud Security Engineer
+
+1. Tell us why you are the best fit for the job.
+
+2. Walk me through Migration Process you have done?
+
+3. Why do you want to be a Cloud Security Engineer?
+
+4.Do you know Azure And Office 365 Configuration, Walk us through.
+
+5. How do they give you access to your previous role resources, since you were a contractor?
+
+6. In 5 years, Where do you see yourself?
+
+7. Tell us about how you develop POCs?
+
+8.What are the common Security loopholes you see in a cloud environment?
+
+9.What the things to consider before migrating to cloud environment from a security perspective?
+
+10. What CI/CD tools are you familiar with?
+
+11. Are you familiar with Terraform.
+
+12. How do you implement security from scaratch in your Infrastructure
+?
+13. Do you have any questions for us?
+
+The questions was alot but these are the few I could remember.

@@ -1,0 +1,73 @@
+Cloud Engineer Bible.
+
+The meeting template for a solutions Architect.
+
+1. Your Workstation or Your Laptop (The Laptop your company provides during on boarding).
+2. Mint (You heard me right, fresh breathe is King), this was the days of meeting holding on-prem.
+3. Replacing number 2 nowadays, I will say a great Cologne, Underwear, Perfume, Deodorant.
+4. Learn to use or master Microsoft OneNote. This application is what I call the battle ground of your career success.
+5. Learn to listen more.. 
+6. Practice after work..
+7. Engage your peers, be extremely nice and playful.
+
+Meetings must have..
+
+1. Requirement Gathering
+2. Action Item List
+3. 
+
+Moxie's place Inc.
+
+Use Case: We spoke to the CEO of Moxie Place Inc, he confirmed to us they have been trying to build a website. 
+
+Requirements:
+Content Management System (CMS), example of this; WordPress, Ghost Blog etc. 
+
+Action Item List:
+Naming Convention: Moxie
+VPC: Moxie-VPC
+Route Table 1: Moxie-RT-Public or Moxie-RouteTable-Public
+Route Table 2: Moxie-RT-Private or Moxie-RouteTable-Private
+Internet Gateway: Moxie-IGW
+Public Subnet 1: Moxie-Public-1c
+Public Subnet 2: Moxie-Public-1d
+Private Subnet 1: Moxie-Private-1c
+Private Subnet 2: Moxie-Private-1d
+NatGateway: Moxie-NatGW
+Elastic IP: Moxie-WP-EIP
+==============================
+
+AIL - EC2 Server or Cloud Server Action Item List 2.
+Note: The server referred to as EC2 is the virtual server where the WordPress app will be deployed to an Instance (Cloud Virtual HARD-Disk).
+
+Naming Convention: Moxie
+Ec2 Name: Moxie-WP
+Type of Instance
+Environment of Instance: AWS Market place within the EC2 instance.
+Number of instances: 2
+Network: Moxie-VPC (From the drop down).
+Subnet: Any public subnet from the drop down
+Auto-assign Public IP: Select "Enable" from the drop down.
+Enable termination protection: Check the box yes.
+Click Next: Add Storage
+Click Add Tags, Click add Tag the 2nd time and enter Tag Name - Key: Name / Value: Moxie-WP.
+Click "Next: Configure Security Group" Note: In the Security group page, ensure it says "WordPress Certified by Bitnami and Automattic-5-8-1-7-r02 on Debian 10-AutogenByAWSMP-" Do Not Touch / Don't change anything, just proceed to next step.
+Final steps, click: Review and Launch to see your configuration and modify if needed.
+
+Putty/PuttyGen
+Mobaxterm
+AWS CLI (Windows or MAC)
+
+
+
+
+
+
+
+
+
+
+AYAMANTAGA ... I AM AT ANGER
+
+SME, Smeee.. Subject Matter Expert.
+AMI - Amazon Machine Image... Proun; Ameeeee or Smry

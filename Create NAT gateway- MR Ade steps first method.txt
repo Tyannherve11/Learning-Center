@@ -1,0 +1,18 @@
+How to creat a NAT Gateway and attach to private route
+1. Click on Elastic IPs on the left.
+2. select Allocate Elastic IP Address on the top right of your screen
+3. Leave everthing as default, scroll to the bottom of the screen to tags
+4. select add new tag, enter Name in the Key and enter the name of your VPCand add -EIP to the end
+5. Click Allocate.
+6. Next click on NAT gateways on the left, select Creat NAT gateway on the top right of the screen
+7. Enter name (VPC name and add -NATGW to the end)
+8. Select Subnet (Public Subnet)
+9. scroll to elastic IPallocation ID and select the elastic IP we created previously
+10. Scroll to the buttom and select creat NAT gateway 
+11. Next go to Route table on the left
+12. Select your private route for your VPC
+13. click on action and select edit route
+14. Select add route and enter 0.0.0.0/0 in the destination
+15. in target enter nat and select the NAT gateway you created previouly
+16. Now hit Save
+17. You are done
